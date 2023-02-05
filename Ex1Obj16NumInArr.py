@@ -11,7 +11,8 @@
 # Импорт функции
 
 import random
-
+import os
+os.system("cls")
 # Введение данных
 
 num_quantity = int(input('Введите размер списка: '))
@@ -33,4 +34,5 @@ def num_count (array, num_for_count):
     return count
 result = num_count(array, num_for_count)
 print(f'Искомое число {num_for_count} встречается в списке {result} раз(а).')
+
 
