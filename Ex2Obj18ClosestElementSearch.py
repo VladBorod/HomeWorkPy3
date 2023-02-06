@@ -17,7 +17,7 @@ os.system("cls")
 
 # Введение данных
 
-num_quantity = int(input('Введите размер списка: '))
+num_quantity = int(input('Введите размер списка (для корректной работы требуется значение более 7!): '))
 # Создание пустого списка--------------------
 array = []
 
@@ -29,7 +29,7 @@ def array_filling(array, num_quantity):
         array.append(random_num)
 res_array = array_filling(array, num_quantity)
 # Вывод списка--------------------
-print(array)
+print(f'Случайный список: {array}')
 
 # Ввод числа-ориентира для поиска ближайшего
  
